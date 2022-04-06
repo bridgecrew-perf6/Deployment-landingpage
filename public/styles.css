@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+body{
+    margin: 0;
+    font-family: auto;
+    font-size: 17px;
+    color: rgb(182, 133, 228);
+    line-height: 1.6;
+}
+
+
+#showcase{
+    background-image:url('https://images.pexels.com/photos/957040/night-photograph-starry-sky-night-sky-star-957040.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    
+    background-size: cover;
+    background-position: center;
+    height:104vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding:0 20px;
+}
+
+#showcase h1{
+    font-size: 50px;
+}
+
+#showcase p{
+    font-size:20px;
+}
+
+#showcase .button{
+    font-size: 18px;
+    text-decoration: none;
+    color: aliceblue;
+    border:aliceblue 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    
+}
+
+
+#showcase .button:hover{
+    background: blueviolet;
+    color: aliceblue;
+    
+}
+
+#section-a{
+    padding: 20px;
+    background: blueviolet;
+    color: black;
+    text-align: center;
+}
+
